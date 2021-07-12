@@ -497,6 +497,10 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
     </ProjectReference>
+    <ProjectReference Include="..\nf-debugger\nanoFramework.Tools.DebugLibrary.Net\nanoFramework.Tools.DebugLibrary.Net.csproj">
+      <Project>{101d57ad-d22f-4905-a992-de15e723f164}</Project>
+      <Name>nanoFramework.Tools.DebugLibrary.Net</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tools.BuildTasks-2019\Tools.BuildTasks.csproj">
       <Project>{552C2500-2C53-4148-A422-0ED983EF135D}</Project>
       <Name>Tools.BuildTasks</Name>
@@ -775,7 +779,6 @@
       <Version>1.0.141</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="nanoFramework.Tools.Debugger.Net" Version="2.0.0-preview.30" />
     <PackageReference Include="nanoFramework.Tools.MetadataProcessor.Core" Version="2.31.3" />
     <PackageReference Include="nanoFramework.Tools.MetadataProcessor.MsBuildTask" Version="2.34.4" />
     <PackageReference Include="Nerdbank.GitVersioning">
